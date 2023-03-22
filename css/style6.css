@@ -1,0 +1,112 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.pre-header .prva-lista .slika a img{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.pre-header .prva-lista{
+    list-style: none;
+    margin-top: 20px;
+}
+.pre-header .prva-lista li{
+    color: darkgrey;
+    text-transform: uppercase;
+}
+.pre-header .prva-lista .ime{
+    font-size: large;
+    margin-top: 10px;
+    font-style: inherit;
+    color:whitesmoke;
+    font-family: initial;
+}
+.pre-header .prva-lista .ime2{
+    font-size: small;
+    margin-top: -3px;
+    font-family: fantasy;
+}
+.pre-header .prva-lista .linija1{
+    margin-top: -10px;
+
+}
+.pre-header .prva-lista .linija2{
+    margin-top: -8px;
+
+}
+.post-header .druga-lista{
+    list-style: none;
+}
+.post-header .druga-lista li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.post-header .druga-lista li a{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-style: inherit;
+    font-family: initial;
+    text-decoration: none;
+
+}
+.post-header .druga-lista .active{
+    color: darkgrey;
+
+
+}
+.post-header .druga-lista li a:hover{
+    color: darkgrey;
+    transition: 0.2s;
+    text-decoration: none;
+
+}
+.post-header .druga-lista .search-container input::placeholder{
+    color: gray;
+    padding-left: 4px;
+    font-size: 17px;
+    font-family: Magneto;
+
+
+
+}
+.post-header .druga-lista .search-container i{
+    color: whitesmoke;
+    font-size: 25px;
+
+}
+.post-header .druga-lista .search-container i:hover{
+    color: darkgray;
+
+}
+.glavnina .prvi{
+    color: whitesmoke;
+    font-style: inherit;
+    font-family: initial;
+    border-bottom: 2px solid darkgray;
+}
+.glavnina .drugi{
+    margin-top: 10px;
+    padding: 10px;
+}
+.glavnina .drugacol img{
+    width: 100%;
+    border-radius: 5px;
+}
+.glavnina .drugacol .slika {
+    margin: 60px;
+    border:2px solid blue;
+}
+footer i{
+    font-size: 25px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+footer p{
+    color: darkgray;
+
+}
